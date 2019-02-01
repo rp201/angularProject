@@ -1,0 +1,27 @@
+#container{
+    align-items: center;
+    background:tan;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input[type=text], input[type=password] {
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 20px;
+    outline: 0;   
+    min-width: 300px;
+}
+
+.submit{
+border-radius: 10px;
+margin: 20px;
+font-size: 20px;
+padding: 20px;
+background-color: skyblue;
+cursor: pointer;
+}
